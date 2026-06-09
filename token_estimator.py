@@ -43,3 +43,6 @@ def main():
     print(f"some of tokens: {sum(result)}")
     print(f"average tokens: {sum(result)/len(result)}")
 
+
+if __name__ == '__main__':
+    main()
