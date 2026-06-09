@@ -34,7 +34,7 @@ def main():
     parser.add_argument("--base_prompt")
     args = parser.parse_args()
 
-    dataset = args.datasets
+    dataset = args.dataset
     model_name = args.model_name
     base_prompt = args.base_prompt
 
