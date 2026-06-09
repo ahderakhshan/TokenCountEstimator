@@ -6,7 +6,7 @@ import tiktoken
 DATASET_HEADERS = {
     "miras-sparrow": ["content"],
     "farstail": ["premise", "hypothesis"],
-    "farexstance": [0, 1]
+    "farexstance": ["claim", "title"]
 }
 
 
